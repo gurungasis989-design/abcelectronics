@@ -1,5 +1,5 @@
 import Navbar from "./component/Navbar";
-import Landing from "./component/Landing";
+import Landing from "./component/Home";
 import About from "./component/About";
 import Brands from "./component/Brands";
 import Contact from "./component/Contact";
