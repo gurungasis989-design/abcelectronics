@@ -3,7 +3,6 @@ import Landing from "./component/Home";
 import About from "./component/About";
 import Brands from "./component/Brands";
 import Contact from "./component/Contact";
-import ContactUs from "./component/ContactUs";
 import Footer from "./component/Footer";
 import Payment from "./component/Payment";
 import "./App.css";
@@ -18,7 +17,6 @@ function App() {
       <Route path="/about" element={<About/>} />
       <Route path="/brands" element={<Brands/>} />
       <Route path="/contact" element={<Contact/>} />
-      <Route path="/contactUs" element={<ContactUs/>} />
       <Route path="/payment" element={<Payment/>} /> 
 
       </Routes>
