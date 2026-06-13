@@ -2,10 +2,10 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <section className="contact" id="contact">
+    <section className="contactUs" id="contactUs">
       <h2>Contact Us</h2>
 
-      <div className="contact-container">
+      <div className="contactus-container">
 
         {/* Company Details */}
         <div className="company-details">

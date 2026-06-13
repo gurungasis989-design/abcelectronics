@@ -1,10 +1,10 @@
 import Navbar from "./component/Navbar";
 import Landing from "./component/Landing";
 import About from "./component/About";
+import Brands from "./component/Brands";
 import Contact from "./component/Contact";
-import Brand from "./component/Brands";
+import ContactUs from "./component/ContactUs";
 import Footer from "./component/Footer";
-import ContactUs from "./component/Contactus";
 import Payment from "./component/Payment";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
@@ -17,8 +17,8 @@ function App() {
       <Route path="/" element={<Landing/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/brands" element={<Brands/>} />
-      <Route path="/contactus" element={<Contactus/>} />
-      <Route path="/contact" element={<Inquiries/>} />
+      <Route path="/contact" element={<Contact/>} />
+      <Route path="/contactUs" element={<ContactUs/>} />
       <Route path="/payment" element={<Payment/>} /> 
 
       </Routes>
@@ -28,3 +28,5 @@ function App() {
 }
 
 export default App;
+
+
